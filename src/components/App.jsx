@@ -11,7 +11,7 @@ function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [images, setImages] = useState([]);
   const [page, setPage] = useState(1);
-  const [error, setError] = useState(null);
+  const [, setError] = useState(null);
   const [showLoader, setShowLoader] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [modalImageURL, setModalImageURL] = useState(null);
